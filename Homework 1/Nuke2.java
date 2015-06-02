@@ -9,6 +9,7 @@ public class Nuke2 {
 	    keyboard = new BufferedReader(new InputStreamReader(System.in));
 		// System.out.print("Please enter t ");
 	    // System.out.flush();        /* Make sure the line is printed immediately. */
+	    System.out.println("Put it back!");
 	    inputLine = keyboard.readLine();
 	    String firstString, remainingString;
 	    firstString=inputLine.substring(0, 1);
